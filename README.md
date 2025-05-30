@@ -25,7 +25,7 @@ First, make sure you have Python installed. Then install dependencies by running
 
     pip install -r requirements.txt
 
-Download the Vosk offline model (e.g. [vosk-model-small-en-us-0.15](https://alphacephei.com/vosk/models)) and extract it.  
+If you're going to use "Offline" you need to download the Vosk offline model (e.g. [vosk-model-small-en-us-0.15](https://alphacephei.com/vosk/models)) and extract it.  
 Place the model folder in the same directory as the script or update the `MODEL_PATH` in the script accordingly.
 
 Run the script with:
